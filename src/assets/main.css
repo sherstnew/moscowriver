@@ -1,0 +1,37 @@
+@import './base.css';
+
+
+@font-face {
+  font-family: "TTNormsPro";
+  font-weight: 400;
+  src: url("./fonts/TTNormsPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "TTNormsPro";
+  font-weight: 500;
+  src: url("./fonts/TTNormsPro-Medium.ttf");
+}
+
+body {
+  background-color: #fafafa;
+  color: #2B2730;
+  font-family: 'TTNormsPro';
+  overflow-y: scroll;
+}
+
+#app {
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a {
+  transition: .5s;
+  color: #2B2730;
+}
+
+a:hover {
+  color: #32b4ff;
+}

@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "6494a14bb8bb4dd490f13720"
+  },
+  "name": "Аквабус",
+  "image": "/images/rivership.jpg"
+},
+{
+  "_id": {
+    "$oid": "6494a14bb8bb4dd490f13721"
+  },
+  "name": "Теплоход Москва-1",
+  "image": "/images/moscow1.jpg"
+},
+{
+  "_id": {
+    "$oid": "6494a14bb8bb4dd490f13722"
+  },
+  "name": "Теплоход Юнга",
+  "image": "/images/younga.jpg"
+}]

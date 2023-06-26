@@ -1,6 +1,7 @@
 <script setup>
   import ShipCard from '../components/ShipCard.vue';
   import RequestError from '../components/RequestError.vue';
+  import AppLoading from '../components/AppLoading.vue';
   import axios from 'axios';
   import * as dayjs from 'dayjs';
 </script>
@@ -51,7 +52,7 @@
 
 <template>
   <request-error v-if="status === 'error'" />
-  <div v-if="status === 'loading'" class="loading">Загрузка...</div>
+  <app-loading />
   <div class="modal_wrapper" v-if="modalVisible">
     <div class="modal">
       <div class="modal_header">
